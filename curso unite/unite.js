@@ -83,21 +83,23 @@ const criarNovoParticipante = (participante) => {
                 </small>
             </td>
             <td>${participante.dataInscricao}</td>
-            <td>${participante.dataCheckin}</td>
+            <td>${participante.dataCheckIn}</td>
         </tr>
 `;
 };
 
 const atualizarLista = (participantes) => {
-    let output = ""
+    let output = "";
     for(let participante of participantes) {
-        output = output + criarNovoParticipante(participante)
+        output += criarNovoParticipante(participante);
     }
-    document.querySelectorAll('tbody').innerHTML = output
+    document.querySelectorAll('tbody').forEach((tbody) => {
+        tbody.innerHTML = output;
+    });
 };
 
 
 
-atualizarLista(participantes)
+atualizarLista(participantes);
 
 
