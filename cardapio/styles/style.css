@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --cor0:#000000;
-    --cor1:#FFFFFF;
-    --cor2:#F6F7F8;
-    --cor3:#FF3131;
-    --cor4:#54CC0A;
-}
-
 body {
-    background-color: var(--cor2);
+    background-color: #F6F7F8;
 }
