@@ -74,15 +74,5 @@ main {
     margin: 0.5px;
 }
 
-.attribuition {
-    font-size: 11px;
-    text-align: center;
-    margin-block-start: 3.5rem;
-    font-family: "Poppins", sans-serif;
-    
-}
 
-.attribuition a {
-    color: hsl(228, 45%, 44%);
-}
 
